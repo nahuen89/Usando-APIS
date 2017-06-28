@@ -9,10 +9,10 @@ el Ejempli es
 una ves que creamos el proyecto en google-cloud nos dara una key
 vamos el archivo /config/clienteGoogle.php
 ```markdown
-$clave = "";
+$clave = ""; // AQUI COOLOCAMOS LA KEY
         
 $client = new Google_Client();
-$client->setApplicationName("PruebasFI2016");
+$client->setApplicationName(""); // AQUI EL NOMBRE DEL PROYECTO
 $client->setDeveloperKey($clave);
 
 ```
